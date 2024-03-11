@@ -109,3 +109,21 @@ do {
 
 	console.log(num);
 } while (num < n);
+
+// for
+
+let times = 10;
+
+for (i = 0; i < 10; i++) console.log(`Hello ${i} !`);
+
+// cel mai mic numar pozitiv dintr o lista folosin "for"
+
+let smallestNr = Number.MAX_SAFE_INTEGER;
+
+for (i = 0; i < numbers.length; i++) {
+	if (numbers[i] < smallestNr) {
+		smallestNr = numbers[i];
+	}
+}
+
+console.log(`CEL MAI MIC NUMAR DIN LISTA ESTE `, smallestNr);
