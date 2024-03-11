@@ -99,3 +99,13 @@ while (currentIndex < numbers.length) {
 	currentIndex++;
 }
 console.log(`Cel mai mic numar din lista este `, smallestNumber);
+
+// do..while
+
+let n = 10;
+let num = 0;
+do {
+	num++;
+
+	console.log(num);
+} while (num < n);
