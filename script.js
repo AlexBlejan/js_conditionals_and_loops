@@ -141,3 +141,15 @@ for (const num of numbers2) {
 }
 
 console.log(`Cel mai mic numar din array numbers2 este`, min);
+
+// for..in
+
+const myCar = {
+	band: `Volvo`,
+	model: `XC90`,
+	manufactureYear: 2012,
+};
+
+for (const property in myCar) {
+	console.log(` ${property} are valoarea ${myCar[property]}`);
+}
