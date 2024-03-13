@@ -127,3 +127,17 @@ for (i = 0; i < numbers.length; i++) {
 }
 
 console.log(`CEL MAI MIC NUMAR DIN LISTA ESTE `, smallestNr);
+
+// for..of
+
+const numbers2 = [22, 11, 91, 7, 33];
+
+let min = numbers2[0];
+
+for (const num of numbers2) {
+	if (num < min) {
+		min = num;
+	}
+}
+
+console.log(`Cel mai mic numar din array numbers2 este`, min);
